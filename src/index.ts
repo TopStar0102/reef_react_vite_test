@@ -1,12 +1,5 @@
-/*
-export * from './appState/account/signers';
-export * as provider from './appState/providerState';
-export * from './appState/token/tokenState';
-export * as appState from './appState/util/util';
-export * from './appState/model/updateStateModel';
-export {signersRegistered$} from "./appState/account/setAccounts";
-*/
-
+import "./style.css";
+export { sum } from "./sum";
 
 export * as reefState from './reefState';
 export * as network from './network';
@@ -18,3 +11,5 @@ export * as addressUtils from './utils/addressUtils'
 export * as balanceUtils from './utils/balanceUtils'
 export * as transactionUtils from './transaction'
 export * as signatureUtils from './signature/tx-signature-util'
+
+
